@@ -18,11 +18,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2vO-8i-rxg">
-                                <rect key="frame" x="164" y="340" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                            </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ngT-3s-ip8">
                                 <rect key="frame" x="139" y="73" width="97" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -63,7 +58,6 @@
                     </view>
                     <navigationItem key="navigationItem" id="OJM-R3-npY"/>
                     <connections>
-                        <outlet property="doneButton" destination="2vO-8i-rxg" id="8gH-Vl-ymN"/>
                         <outlet property="favFlavourSwitch" destination="Th0-9i-LuG" id="jBl-gi-Tws"/>
                         <outlet property="nameTextField" destination="ngT-3s-ip8" id="3sr-ye-AlK"/>
                         <outlet property="showPriceLabel" destination="as4-LJ-exZ" id="DcM-Xx-bhN"/>
