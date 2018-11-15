@@ -23,7 +23,7 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var showPriceLabel: UILabel!
    
-    var d = BehaviorRelay(value: "Example")
+    var example = BehaviorRelay(value: "Example")
     override func viewDidLoad() {
         super.viewDidLoad()
         binding()
@@ -42,7 +42,7 @@ class ViewController: UIViewController {
     }
     
     func binding() {
-        Observable.combineLatest(d.asObservable() , favFlavourSwitch.rx.isOn, resultSelector: { _,_ in
+        Observable.combineLatest(example.asObservable() , favFlavourSwitch.rx.isOn, resultSelector: { _,_ in
             if (self.favFlavourSwitch.isOn) {
                 self.showPriceLabel.text = "200"
             } else {
