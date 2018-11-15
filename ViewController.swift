@@ -34,7 +34,7 @@ class ViewController: UIViewController {
     
     
     @IBAction func onTappingNextButton(_ sender: Any) {
-        performSegue(withIdentifier: "secondVC", sender: self)s
+        performSegue(withIdentifier: "secondVC", sender: self)
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
