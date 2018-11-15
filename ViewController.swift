@@ -22,10 +22,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var doneButton: UIButton!
     
     @IBOutlet weak var showPriceLabel: UILabel!
-    var a = "ssd"
-    var b = "b"
-    var c = "c"
-    var d = BehaviorRelay(value: "Deep")
+   
+    var d = BehaviorRelay(value: "Example")
     override func viewDidLoad() {
         super.viewDidLoad()
         binding()
