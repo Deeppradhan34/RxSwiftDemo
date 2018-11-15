@@ -11,16 +11,8 @@ import RxSwift
 import RxCocoa
 
 class ViewController: UIViewController {
-    
-    //var isFav = false
-    //  var isFav1: BehaviorRelay<[Bool  ]> = BehaviorRelay(value: [])
-    
     @IBOutlet weak var nameTextField: UITextField!
-    
     @IBOutlet weak var favFlavourSwitch: UISwitch!
-    
-    @IBOutlet weak var doneButton: UIButton!
-    
     @IBOutlet weak var showPriceLabel: UILabel!
    
     var example = BehaviorRelay(value: "Example")
